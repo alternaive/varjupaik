@@ -1,0 +1,61 @@
+*{
+	font-family: "IBM Plex Sans Condensed", sans serif;
+	box-sizing:border-box;
+}
+
+.kodulogo{
+	width:250px;
+	height:auto;
+	float:left;
+	display:inline-block;
+	
+	
+}
+
+.kodukiri {
+	display:inline;
+	float:right;
+	font-size:48px;
+	
+}
+.tophead {
+	width:1140px;
+	height:150px;
+	display:flex;
+	justify-content: center;
+}
+
+
+
+.navbar{
+    border:1px solid #ccc;
+    border-width:1px 0;
+    list-style:none;
+	margin-top:50px;
+    margin:0;
+    padding:0;
+    text-align:center;
+}
+.navbar li{
+    display:inline;
+}
+.navbar a{
+    display:inline-block;
+    padding:10px;
+}
+
+.kontaktid {
+	list-style:none;
+}
+
+.asukoht {
+	float:right;
+}
+
+.ajad {
+	list-style:none;
+}
+
+.fkontakt {
+	list-style:none;
+}
