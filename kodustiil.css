@@ -2,6 +2,10 @@
 	font-family: "IBM Plex Sans Condensed", sans serif;
 	box-sizing:border-box;
 }
+.container {
+	width:1140px;
+	margin: 0 auto;
+}
 
 .kodulogo, .kodulogo2 {
 	width:250px;
@@ -23,7 +27,7 @@
 	width:1140px;
 	height:150px;
 	display:flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 
@@ -50,11 +54,18 @@
     padding:10px;
 }
 .toeta {
-	background-color:#941503
+	background-color:#941503;
+	padding-top:15px;
+	padding-bottom:15px;
 }
 
 .sisu {
 	margin-top:100px;
+	margin-bottom:100px;
+}
+
+.kontaktid img {
+	width:50px;
 }
 
 .kontaktid {
@@ -108,4 +119,11 @@
 }   
 .fkontakt li img{
 	padding-right:20px;
+	width:50px;
+	padding-top:10px;
 }   
+
+footer {
+	margin:0;
+	
+}
