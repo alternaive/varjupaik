@@ -52,12 +52,14 @@
 .navbar a{
     display:inline-block;
     padding:10px;
+	color:white;
 }
 .toeta {
 	background-color:#941503;
 	padding-top:15px;
 	padding-bottom:15px;
 }
+
 
 .sisu {
 	margin-top:100px;
@@ -95,6 +97,7 @@
 .fkontakt {
 	list-style:none;
 	width:100%;
+	
 }
 
 .footer {
@@ -126,4 +129,102 @@
 footer {
 	margin:0;
 	
+}
+.loomad img {
+	width:300px;
+	height:auto;
+}
+.loomad {
+    display: grid;
+    grid-template-columns: 330px 330px 330px;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+    justify-content: space-around;
+    margin-top: 50px;
+	padding-bottom: 200px;
+}
+
+
+
+
+.add-fields {
+	width: 40%;
+	height: 1100px;
+	background-color: #F3F2F2;
+	margin-left:40px;
+	padding-top:30px;
+	margin-bottom:200px;
+}
+
+.date, .owner-contact, .add-info, .add-img {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	justify-content: space-around;
+	margin-right: auto;
+	margin-left: auto;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+}
+
+.date label, .owner-contact label, .add-info label, .add-img label {
+	font-size: 18px;
+	margin-top: 60px;
+	padding-bottom: 10px;
+	color: #000;
+	width: 100%;
+	display: block;
+}
+
+.date input, .owner-contact input {
+	line-height: 23px;
+	height: 65px;
+	border: solid 1px #5A5A5A;
+}
+
+.add-info input {
+	line-height: 23px;
+	height: 260px;
+	border: solid 1px #5A5A5A;
+}
+
+.add-button-container {
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.add-button {
+	max-width: 30vw;
+	min-width: 200px;
+	height: 65px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #5b7851;
+	font-family: 'Krub', sans-serif;
+	font-weight: normal;
+	font-size: 24px;
+	border: solid 1px #ffffff;
+	filter: drop-shadow(0px 4px 4px #909090);
+}
+
+.add-button-container a{
+	text-decoration: none;
+	color: #fff;
+}
+
+.kadund {
+	background-image: url("loojang.jpg");
+	background-repeat:no-repeat;
+	background-position: right top;
+	background-attachment: fixed;
+	opacity:0.8;
+}
+
+.add-fields label {
+	font-weight: bold;
 }
